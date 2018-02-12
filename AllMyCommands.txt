@@ -1,0 +1,32 @@
+a) $ git init
+b) $ git add --all
+   $ git commit -m "Adding file1, file2 and file3"
+ 
+c) $ git rm -rf file2.txt
+   $ git commit -m "deleted file2.txt"
+   
+d) $ git log
+   $ git checkout 6eb8023d65493d4a2ea912f9bf55718c81e8119e^1 file2.txt
+e) $ git commit -m "file2.txt restored"
+
+f) $ git remote add origin https://github.com/sandraiskander/Sprint0-SE.git
+   $ git push -u origin master
+   
+h) $ git checkout -b ReadMe
+  
+i) $ git add README.md
+   
+j) $ git commit -m "Adding README.md file to new branch ReadMe"
+   $ git push -u origin ReadMe
+
+k) $ git checkout master
+   $ git merge ReadMe
+   $ git commit -m "Merging ReadMe branch into master"
+   $ git push -u origin master
+   
+I) $ git Add AllMyCommands.txt
+   $ git commit -m "Adding AllMyCommands.txt"   
+   
+
+
+   
